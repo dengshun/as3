@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="foobar" default="main" basedir=".">
+
+    
+    <target name="define-constants">
+        <property name="FLEX_HOME" value="/home/marvel/flex" />
+    </target>
+
+
+    <target name="define-tasks">
+        <taskdef resource="flexTasks.tasks" classpath="${FLEX_HOME}/lib/flexTasks.jar" />
+    </target>
+
+    <target name="main" depends="define-constants,define-tasks,build">
+    </target>
+
+
+    <target name="after">
+    </target>
+
+    <target name="build" depends="builtin">
+    </target>
+
+    <target name="builtin">
+        <compc output="builtin.swc" target-player="10.2.0">
+            <strict>false</strict>
+            <optimize>true</optimize>
+            <warnings>true</warnings>
+            <verbose-stacktraces>true</verbose-stacktraces>
+            <compute-digest>false</compute-digest>
+			<load-config filename="/home/marvel/ssa/tamarin/flex-config.xml"/>
+            <source-path path-element="${basedir}/as3_src" />
+			<include-sources dir="${basedir}/as3_src" includes="flash/display/Sprite.as"/>
+			<include-sources dir="${basedir}/build/tamarin-redux/core" includes="builtin.as Math.as Error.as Date.as RegExp.as JSON.as XML.as IDataInput.as IDataOutput.as ByteArray.as Proxy.as"/>
+			<include-sources dir="${basedir}/build/tamarin-redux" includes="shell/shell_toplevel.as shell/Domain.as extensions/Zmq.as extensions/Sampler.as extensions/Trace.as extensions/Dictionary.as Endian.as Java.as"/>
+        </compc>
+
+    </target>
+	<target name="shell_toplevel">
+        <compc output="shell_toplevel.swc" target-player="10.1">
+            <strict>false</strict>
+            <optimize>true</optimize>
+            <warnings>true</warnings>
+            <verbose-stacktraces>true</verbose-stacktraces>
+            <compute-digest>false</compute-digest>
+			<external-library-path file="/home/marvel/ssa/tamarin/builtin.swc"/>
+          
+            <source-path path-element="${basedir}/as3_src" />
+			<include-sources dir="${basedir}/build/tamarin-redux" includes="shell/shell_toplevel.as shell/Domain.as extensions/Zmq.as extensions/Sampler.as extensions/Trace.as extensions/Dictionary.as Endian.as Java.as"/>
+        </compc>
+
+    </target>
+</project>

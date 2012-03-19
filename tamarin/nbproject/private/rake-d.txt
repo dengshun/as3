@@ -1,0 +1,13 @@
+build_avm\:debug=build avm debug debugger (warning generates large files)
+build_avm\:debugger=build avm debugger
+build_avm\:release=build avm release
+build_mongrel_handler=
+clean=Remove any temporary products.
+clobber=Remove any generated file.
+clone_tamarin=Clone tamarin-redux
+compile=Compile as3 scripts
+default=
+install_rails=copy to rails
+patch_tamarin=
+so=
+test=test

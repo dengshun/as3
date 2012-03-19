@@ -1,0 +1,16 @@
+<pre>
+SENDER: 34f9ceee-cd52-4b7f-b197-88bf2f0ec378
+IDENT: 14
+PATH: /handlertest
+BODY: 
+HEADER: PATH: /handlertest
+HEADER: x-forwarded-for: 192.168.1.2
+HEADER: connection: Keep-Alive
+HEADER: accept: */*
+HEADER: user-agent: Wget/1.12 (linux-gnu)
+HEADER: host: 192.168.1.2:6767
+HEADER: METHOD: GET
+HEADER: VERSION: HTTP/1.0
+HEADER: URI: /handlertest
+HEADER: PATTERN: /handlertest
+</pre>

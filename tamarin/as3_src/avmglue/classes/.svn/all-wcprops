@@ -1,0 +1,1355 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes
+END
+Screen.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/Screen.as
+END
+Proxy.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Proxy.as
+END
+SoundLoaderContext.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SoundLoaderContext.as
+END
+ConvolutionFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ConvolutionFilter.as
+END
+Camera.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Camera.as
+END
+GraphicsStroke.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/GraphicsStroke.as
+END
+InterpolationMethod.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/InterpolationMethod.as
+END
+Point.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Point.as
+END
+URLLoaderDataFormat.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/URLLoaderDataFormat.as
+END
+NetStatusEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/NetStatusEvent.as
+END
+FileReference.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/FileReference.as
+END
+Graphics.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/Graphics.as
+END
+Responder.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Responder.as
+END
+CSMSettings.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/CSMSettings.as
+END
+InteractiveObject.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/InteractiveObject.as
+END
+Sprite.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/Sprite.as
+END
+DynamicPropertyOutput.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/DynamicPropertyOutput.as
+END
+DisplayModeType.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/DisplayModeType.as
+END
+ImeEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ImeEvent.as
+END
+NativeWindow.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/NativeWindow.as
+END
+FocusEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/FocusEvent.as
+END
+Event.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/Event.as
+END
+System.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/System.as
+END
+SQLStatement.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLStatement.as
+END
+SimpleButton.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SimpleButton.as
+END
+IMEConversionMode.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/IMEConversionMode.as
+END
+FileFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/FileFilter.as
+END
+ObjectInput.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ObjectInput.as
+END
+MovieClip.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/MovieClip.as
+END
+FontStyle.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/FontStyle.as
+END
+Sound.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Sound.as
+END
+AsyncErrorEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/AsyncErrorEvent.as
+END
+StyleSheet.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/StyleSheet.as
+END
+TextFieldType.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextFieldType.as
+END
+DisplayObject.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/DisplayObject.as
+END
+SoundMixer.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SoundMixer.as
+END
+GraphicsPathWinding.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/GraphicsPathWinding.as
+END
+SQLResult.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLResult.as
+END
+IDynamicPropertyWriter.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/IDynamicPropertyWriter.as
+END
+GraphicsSolidFill.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/GraphicsSolidFill.as
+END
+ByteArray.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ByteArray.as
+END
+Stage.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/Stage.as
+END
+IGraphicsData.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/IGraphicsData.as
+END
+Rectangle.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Rectangle.as
+END
+SWFVersion.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1573/platform/avmglue/trunk/src/classes/SWFVersion.as
+END
+Video.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Video.as
+END
+ProgressEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ProgressEvent.as
+END
+Security.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Security.as
+END
+FontType.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/FontType.as
+END
+BlurFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/BlurFilter.as
+END
+NativeMenu.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/NativeMenu.as
+END
+XMLParser.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/XMLParser.as
+END
+ISimpleTextSelection.as
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/ISimpleTextSelection.as
+END
+StageOrientation.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/StageOrientation.as
+END
+FocusDirection.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/FocusDirection.as
+END
+Timer.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Timer.as
+END
+SoundChannel.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SoundChannel.as
+END
+BitmapFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/BitmapFilter.as
+END
+HTTPStatusEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/HTTPStatusEvent.as
+END
+EncryptedLocalStore.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/EncryptedLocalStore.as
+END
+ShaderInput.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/ShaderInput.as
+END
+Accessibility.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/Accessibility.as
+END
+IBitmapDrawable.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/IBitmapDrawable.as
+END
+Socket.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Socket.as
+END
+SQLColumnSchema.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLColumnSchema.as
+END
+XMLUI.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/XMLUI.as
+END
+GraphicsEndFill.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/GraphicsEndFill.as
+END
+Keyboard.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Keyboard.as
+END
+IEventDispatcher.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/IEventDispatcher.as
+END
+EventPhase.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/EventPhase.as
+END
+ColorCorrectionSupport.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/ColorCorrectionSupport.as
+END
+PrintJobOptions.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/PrintJobOptions.as
+END
+ExternalInterface.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ExternalInterface.as
+END
+BevelFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/BevelFilter.as
+END
+PrintJobOrientation.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/PrintJobOrientation.as
+END
+FullScreenEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/FullScreenEvent.as
+END
+SQLCollationType.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLCollationType.as
+END
+XMLNode.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/XMLNode.as
+END
+MorphShape.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/MorphShape.as
+END
+ShaderParameter.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/ShaderParameter.as
+END
+LocalConnection.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/LocalConnection.as
+END
+ColorTransform.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ColorTransform.as
+END
+ContextMenuEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ContextMenuEvent.as
+END
+GraphicsPathCommand.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/GraphicsPathCommand.as
+END
+URLStream.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/URLStream.as
+END
+SQLSchema.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLSchema.as
+END
+PixelSnapping.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/PixelSnapping.as
+END
+TimerEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TimerEvent.as
+END
+TextFormatDisplay.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextFormatDisplay.as
+END
+SecurityErrorEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SecurityErrorEvent.as
+END
+IDynamicPropertyOutput.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/IDynamicPropertyOutput.as
+END
+Capabilities.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1544/platform/avmglue/trunk/src/classes/Capabilities.as
+END
+URLLoader.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/URLLoader.as
+END
+NativeMenuItem.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/NativeMenuItem.as
+END
+GridFitType.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/GridFitType.as
+END
+StageDisplayState.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/StageDisplayState.as
+END
+URLVariables.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/URLVariables.as
+END
+GradientGlowFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/GradientGlowFilter.as
+END
+MMExecute.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/MMExecute.as
+END
+Scene.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/Scene.as
+END
+NetFilterEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/NetFilterEvent.as
+END
+XMLDocument.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/XMLDocument.as
+END
+SQLColumnNameStyle.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLColumnNameStyle.as
+END
+ShaderData.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/ShaderData.as
+END
+IGraphicsStroke.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/IGraphicsStroke.as
+END
+KeyboardEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/KeyboardEvent.as
+END
+SharedObjectFlushStatus.as
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SharedObjectFlushStatus.as
+END
+IDataOutput.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/IDataOutput.as
+END
+JointStyle.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/JointStyle.as
+END
+SQLTriggerSchema.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLTriggerSchema.as
+END
+LineScaleMode.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/LineScaleMode.as
+END
+Shader.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/Shader.as
+END
+BitmapData.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/BitmapData.as
+END
+ShaderParameterType.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/ShaderParameterType.as
+END
+IME.as
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/IME.as
+END
+SQLViewSchema.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLViewSchema.as
+END
+URLRequestMethod.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/URLRequestMethod.as
+END
+Bitmap.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/Bitmap.as
+END
+TextFieldAutoSize.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextFieldAutoSize.as
+END
+StageScaleMode.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/StageScaleMode.as
+END
+NativeWindowSystemChrome.as
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/NativeWindowSystemChrome.as
+END
+IExternalizable.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/IExternalizable.as
+END
+IOErrorEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/IOErrorEvent.as
+END
+TextLineMetrics.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextLineMetrics.as
+END
+SoundTransform.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SoundTransform.as
+END
+StatusEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/StatusEvent.as
+END
+TextEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextEvent.as
+END
+ObjectOutput.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ObjectOutput.as
+END
+TextField.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextField.as
+END
+FrameLabel.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/FrameLabel.as
+END
+AccessibilityImplementation.as
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/AccessibilityImplementation.as
+END
+ActivityEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ActivityEvent.as
+END
+Endian.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Endian.as
+END
+IDataInput.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/IDataInput.as
+END
+Loader.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/Loader.as
+END
+Font.as
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Font.as
+END
+FSCommand.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1544/platform/avmglue/trunk/src/classes/FSCommand.as
+END
+ContextMenu.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ContextMenu.as
+END
+ColorMatrixFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ColorMatrixFilter.as
+END
+ProductManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ProductManager.as
+END
+StageQuality.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/StageQuality.as
+END
+TextDisplayMode.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextDisplayMode.as
+END
+SpreadMethod.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/SpreadMethod.as
+END
+GradientBevelFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/GradientBevelFilter.as
+END
+ShaderPrecision.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/ShaderPrecision.as
+END
+Debugger.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Debugger.as
+END
+SecurityPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SecurityPanel.as
+END
+SQLTableSchema.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLTableSchema.as
+END
+ApplicationDomain.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ApplicationDomain.as
+END
+StaticText.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/StaticText.as
+END
+XMLTag.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/XMLTag.as
+END
+DisplayObjectContainer.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/DisplayObjectContainer.as
+END
+Shape.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/Shape.as
+END
+ShaderJob.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/ShaderJob.as
+END
+NetStream.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/NetStream.as
+END
+ContextMenuBuiltInItems.as
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ContextMenuBuiltInItems.as
+END
+Matrix.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Matrix.as
+END
+NetConnection.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/NetConnection.as
+END
+CapsStyle.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/CapsStyle.as
+END
+AntiAliasType.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/AntiAliasType.as
+END
+TextFormatAlign.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextFormatAlign.as
+END
+SQLIndexSchema.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLIndexSchema.as
+END
+URLRequest.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/URLRequest.as
+END
+TextExtent.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextExtent.as
+END
+GraphicsPath.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/GraphicsPath.as
+END
+DropShadowFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/DropShadowFilter.as
+END
+NativeWindowType.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/NativeWindowType.as
+END
+LoaderInfo.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/LoaderInfo.as
+END
+GraphicsGradientFill.as
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/GraphicsGradientFill.as
+END
+TextColorType.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextColorType.as
+END
+PrintJob.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/PrintJob.as
+END
+Mouse.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Mouse.as
+END
+ContextMenuItem.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ContextMenuItem.as
+END
+EventDispatcher.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/EventDispatcher.as
+END
+FileReferenceList.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/FileReferenceList.as
+END
+BitmapFilterQuality.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/BitmapFilterQuality.as
+END
+ID3Info.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ID3Info.as
+END
+ErrorEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ErrorEvent.as
+END
+TextFormat.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextFormat.as
+END
+GraphicsShaderFill.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/GraphicsShaderFill.as
+END
+GradientType.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/GradientType.as
+END
+BitmapDataChannel.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/BitmapDataChannel.as
+END
+SecurityDomain.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SecurityDomain.as
+END
+SetIntervalTimer.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SetIntervalTimer.as
+END
+Microphone.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Microphone.as
+END
+GraphicsTrianglePath.as
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/GraphicsTrianglePath.as
+END
+GraphicsBitmapFill.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/GraphicsBitmapFill.as
+END
+NativeWindowDisplayState.as
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/NativeWindowDisplayState.as
+END
+ActionScriptVersion.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/ActionScriptVersion.as
+END
+DataEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/DataEvent.as
+END
+Transform.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Transform.as
+END
+LoaderContext.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/LoaderContext.as
+END
+DisplacementMapFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/DisplacementMapFilter.as
+END
+ObjectEncoding.as
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/ObjectEncoding.as
+END
+StageAlign.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/StageAlign.as
+END
+GlowFilter.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/GlowFilter.as
+END
+NativeWindowInitOptions.as
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/NativeWindowInitOptions.as
+END
+SyncEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SyncEvent.as
+END
+SQLConnection.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLConnection.as
+END
+SQLSchemaResult.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLSchemaResult.as
+END
+IGraphicsFill.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/IGraphicsFill.as
+END
+SQLTransactionLockType.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLTransactionLockType.as
+END
+DisplacementMapFilterMode.as
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/DisplacementMapFilterMode.as
+END
+KeyLocation.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1524/platform/avmglue/trunk/src/classes/KeyLocation.as
+END
+Profiler.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/Profiler.as
+END
+TriangleCulling.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/TriangleCulling.as
+END
+URLRequestHeader.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/URLRequestHeader.as
+END
+BitmapFilterType.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/BitmapFilterType.as
+END
+IGraphicsPath.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/IGraphicsPath.as
+END
+BlendMode.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/BlendMode.as
+END
+MouseEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/MouseEvent.as
+END
+CustomActions.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/CustomActions.as
+END
+SharedObject.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/SharedObject.as
+END
+NativeWindowResize.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/NativeWindowResize.as
+END
+StageAspectRatio.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/StageAspectRatio.as
+END
+SQLMode.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/SQLMode.as
+END
+AccessibilityProperties.as
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/AccessibilityProperties.as
+END
+AVM1Movie.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/AVM1Movie.as
+END
+TextSnapshot.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextSnapshot.as
+END
+ColorCorrection.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1572/platform/avmglue/trunk/src/classes/ColorCorrection.as
+END
+ISearchableText.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1587/platform/avmglue/trunk/src/classes/ISearchableText.as
+END
+XMLNodeType.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/XMLNodeType.as
+END
+XMLSocket.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/XMLSocket.as
+END
+TextRun.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextRun.as
+END
+TextRenderer.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1499/platform/avmglue/trunk/src/classes/TextRenderer.as
+END

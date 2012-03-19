@@ -1,0 +1,144 @@
+#require 'bundler'
+#Bundler::GemHelper.install_tasks
+require 'rake/clean'
+require 'test/unit'
+require 'rake/testtask'
+
+
+TAMARIN_DIR = File.join('build/tamarin-redux')
+TAMARIN_REVISION =  "da5f842d3ac4" # Last known good version 604feb5db8df, "70a15b28c8bc"
+#TAMARIN_REVISION = "70a15b28c8bc"
+TAMARIN_URL = "http://hg.mozilla.org/tamarin-redux/"
+
+EXTENSIONS = FileList['src/extensions/*']
+ZLIB = FileList['src/other-licenses/zlib/*']
+SHELL = FileList['src/shell/*']
+MMGC = FileList['src/MMgc/*']
+CONFIGURE_PY = FileList['src/configure.py']
+
+ASC = FileList['bin/asc.jar']
+
+GENERATED_TOPLEVEL = FileList['build/tamarin-redux/generated/shell_toplevel.*']
+GENERATED = FileList['build/tamarin-redux/generated/shell_toplevel.*','build/tamarin-redux/generated/builtin.*']
+ABC = FileList['../generated/shell_toplevel.abc','../generated/builtin.abc']
+
+CLEAN.include('build/tamarin-redux/objdir-release',GENERATED)
+CLOBBER.include('build/*')
+
+def build_avm(type)
+  if type == :release
+    config = '--enable-jit'
+    name = ''
+  elsif type == :debugger
+    config = '--enable-debugger'
+    name = '_debugger'
+  elsif type == :debug
+    config = '--enable-debugger --enable-debug'
+    name = '_debug'
+  end
+  
+  mkdir "build/tamarin-redux/objdir-release" unless File.directory?("build/tamarin-redux/objdir-release")
+  #cp "../mongrel2-cpp/libm2pp.a", "build/tamarin-redux/objdir-release"
+  #cp "../mongrel2-cpp/lib/m2pp.hpp","build/tamarin-redux/extensions"
+  cd "build/tamarin-redux/objdir-release"
+  sh "python ../configure.py --enable-shell #{config}"
+  sh "make"
+  sh "g++ -shared -Wl,-export-dynamic,-soname,libavmshell.so -o shell/libavmshell.so eval/eval-abc.o eval/eval-avmplus.o eval/eval-cogen.o eval/eval-cogen-expr.o eval/eval-cogen-stmt.o eval/eval-compile.o eval/eval-lex.o eval/eval-lex-xml.o eval/eval-parse.o eval/eval-parse-config.o eval/eval-parse-expr.o eval/eval-parse-stmt.o eval/eval-parse-xml.o eval/eval-unicode.o eval/eval-util.o shell/avmshell.o shell/ConsoleOutputStream.o shell/DebugCLI.o shell/DomainClass.o shell/FileClass.o shell/FileInputStream.o shell/ShellCore.o shell/SystemClass.o shell/swf.o shell/../extensions/DictionaryGlue.o shell/../extensions/JavaGlue.o shell/../extensions/SamplerScript.o shell/../extensions/Selftest.o shell/../extensions/SelftestInit.o shell/../extensions/SelftestExec.o shell/../extensions/ZmqClass.o shell/avmshellUnix.o shell/PosixFile.o shell/PosixPartialPlatform.o -L. -lzlib -lMMgc -lavmplus -lvmbase   -lzlib -lpthread -lzmq"
+  cp "shell/avmshell", "../../../bin/avmshell#{name}"
+  cp "shell/libavmshell.so", "../../../bin/libavmshell#{name}.so"
+  cp ABC, "../../../bin"
+  #sh "ldconfig -n ../../../bin"
+end
+
+task :build_mongrel_handler do
+  cd "../mongrel2-cpp"
+  sh "make clean"
+  sh "make"
+  cd "../tamarin"
+end
+
+task :default => [:build_avm]
+
+task :patch_tamarin do
+  rm GENERATED_TOPLEVEL if ENV['regenerate']
+  cp EXTENSIONS, "build/tamarin-redux/extensions"
+  cp ZLIB, "build/tamarin-redux/other-licenses/zlib"
+  cp SHELL, "build/tamarin-redux/shell"
+  #cp MMGC, "build/tamarin-redux/MMgc"
+  cp CONFIGURE_PY, "build/tamarin-redux"
+  cp ASC, "build/tamarin-redux/utils"
+end
+
+
+
+namespace :build_avm do
+  
+  desc 'build avm release'
+  task :release => [:clone_tamarin, :patch_tamarin] do
+    build_avm(:release)
+  end
+  
+  desc 'build avm debugger'
+  task :debugger => [:clone_tamarin, :patch_tamarin] do
+    build_avm(:debugger)
+  end
+  
+  desc 'build avm debug debugger (warning generates large files)'
+  task :debug => [:clone_tamarin, :patch_tamarin] do
+    build_avm(:debug)
+  end
+end
+
+
+task :so do
+  cd "build/tamarin-redux/objdir-release"
+  sh "g++ -shared -Wl,-export-dynamic,-soname,libavmshell.so -o shell/libavmshell.so VMPI/PosixPortUtils.o VMPI/UnixDebugUtils.o VMPI/MMgcPortUnix.o VMPI/ThreadsPosix.o \
+eval/eval-abc.o eval/eval-avmplus.o eval/eval-cogen.o eval/eval-cogen-expr.o eval/eval-cogen-stmt.o eval/eval-compile.o eval/eval-lex.o eval/eval-lex-xml.o \
+eval/eval-parse.o eval/eval-parse-config.o eval/eval-parse-expr.o eval/eval-parse-stmt.o eval/eval-parse-xml.o eval/eval-unicode.o eval/eval-util.o shell/avmshell.o \
+shell/ConsoleOutputStream.o shell/DebugCLI.o shell/DomainClass.o shell/FileClass.o shell/FileInputStream.o shell/ShellCore.o shell/SystemClass.o shell/swf.o \
+shell/../extensions/DictionaryGlue.o shell/../extensions/JavaGlue.o shell/../extensions/SamplerScript.o shell/../extensions/Selftest.o shell/../extensions/SelftestInit.o \
+shell/../extensions/SelftestExec.o shell/../extensions/ZmqClass.o shell/avmshellUnix.o shell/PosixFile.o shell/PosixPartialPlatform.o \
+-L. -lzlib -lMMgc -lavmplus -lvmbase   -lzlib -lpthread -lzmq"
+
+end
+
+desc "Clone tamarin-redux"
+task :clone_tamarin do
+  unless File.exists?(TAMARIN_DIR)
+    if TAMARIN_REVISION == 'head'
+      sh "hg clone #{TAMARIN_URL} #{TAMARIN_DIR}"
+    else
+      sh "hg clone -r #{TAMARIN_REVISION} #{TAMARIN_URL} #{TAMARIN_DIR}"
+    end
+    
+  end
+end
+
+namespace :compile do
+	desc "Compile as3 scripts"
+	task :mb do
+  		sh "java -jar bin/asc.jar -md -AS3 -d  -strict -builtin -import bin/builtin.abc -import bin/shell_toplevel.abc -in as3/tnetstring.as -in as3/message_broker.as as3/mb_test.as"
+	end
+	task :mongrel do
+  		sh "java -jar bin/asc.jar -md -AS3 -d  -strict -builtin -import bin/builtin.abc -import bin/shell_toplevel.abc -in as3/tnetstring.as as3/mongrel_test.as"
+	end
+	task :ns do
+		files = ['JSON.as',  'JSONDecoder.as',  'JSONEncoder.as',  'JSONParseError.as',  'JSONToken.as',  'JSONTokenizer.as',  'JSONTokenType.as'].collect {|f| "-in as3/com/adobe/serialization/json/#{f}"}
+  		sh "java -jar bin/asc.jar -md -AS3 -d  -builtin -import bin/builtin.abc -import bin/shell_toplevel.abc -in as3/tnetstring.as #{files.join(' ')}  as3/tnet_test.as"
+	end
+end
+
+desc "copy to rails"
+task :install_rails do
+  BINFILES = FileList['bin/avmshell_debugger','bin/libavmshell_debugger.so','bin/asc.jar','bin/libavmshell.so','bin/builtin.abc','bin/shell_toplevel.abc','bin/avmshell']
+  cp BINFILES, File.join(ENV['RAILS_ROOT'],'lib/tamarin/bin')
+end
+
+desc 'test'
+task :test => [:compile] do
+  Rake::TestTask.new do |t|
+    t.libs << "test"
+    t.test_files = FileList['test/test*.rb']
+    t.verbose = true
+  end
+end
